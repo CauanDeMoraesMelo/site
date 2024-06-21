@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROQUE’S PARFUN</title>
     <style> 
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:wght@100..900&display=swap');
+
     :root{
         --rosa: #F8ACE7;
         --preto: #000000c4 ;
@@ -125,6 +131,56 @@ font-family: "Poppins", sans-serif;
 .o{
     display: flex;
 }
+.p{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.text1{
+font-size: 36px;
+font-family:"Inter", sans-serif ;
+}
+.text2{
+    padding-left: 2%;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+.text3{
+    font-size: 40px;
+    font-family: "inter", sans-serif;
+    padding-top: 10%;
+}
+.text4{
+    font-size: 20px;
+    font-family: "inter", sans-serif;
+    padding-top: 2%;
+}
+.text5{
+    padding-top: 10%;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+.text6{
+    padding-top: 5%;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+.text7{
+    padding-top: 1%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+button{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--branco);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.b{
+    display: flex;
+    padding-top: 8%;
+}
     </style>
 </head>
 <body>
@@ -142,23 +198,34 @@ font-family: "Poppins", sans-serif;
         <input type="text" placeholder="pesquisa..." class="search-txt"> 
     </div>
 </div>
-<section class="o">
-<img src="sapato.svg" alt="imagem-do-goodgirl-perfume" class="u">
-<h1 class="text1">Carolina</h1>
-<h2 class="text2">Perfume</h2>
-<h1 class="text3">R$</h1>
-<h2 class="text4">ou</h2>
-<h1 class="text5">Quantidade</h1>
+         <section class="o">
+    <div class="p">
+<img src="sapa.svg" alt="imagem-do-goodgirl-perfume" class="u">
+    </div>
+        <div class="p">
+<h1 class="text1">CAROLINA HERRERA</h1>
+<h2 class="text2">PERFUME GOOD GIRL BLUSH ELIXIR EAU DE
+    PARFUM</h2>
+<h1 class="text3">R$879,00</h1>
+<h2 class="text4">OU 10X DE R$87,90</h2>
+<h1 class="text5">QUANTIDADE</h1>
+                             <div class="b">
 <div class="parametro">
             <div class="parametro-senha-botoes">
                 <button class="parametro-senha__botao">-</button>
                 <p class="parametro-senha__texto">1</p>
                 <button class="parametro-senha__botao">+</button>
             </div>
-        </div> 
+</div> 
         <button type="button"> <img src="Sacola.svg" alt="adicionar a comopra"></button>
-    </section>
-       
+                             </div>
+        </div>
+         </section>
+         <h1 class="text6">DESCRIÇÃO</h1>
+         <h2 class="text7">A fragrância Good Girl Blush Elixir é uma celebração exunberante de contrastes, com notas que envocam tanto a docçuraquanto a intensidade. <br> 
+            As notas de topo exalam uma luminosidade cativante, com o frescor revigorante da bergamota e amêndoa amarga. No coração, a fragrância revela <br>
+            sua profundidade e feminilidade com o aroma envolvente da rosa e ylang ylang.</h2>
+</section> 
 </body>
 <script src="js.js"></script>
 </html>
