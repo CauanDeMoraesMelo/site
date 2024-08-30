@@ -14,12 +14,7 @@
     
 }
 body{
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        background-color: var(--fundo);
-    
+    background-color: var(--fundo);    
 }
 .conteine{
     position: relative;
@@ -34,6 +29,18 @@ body{
     margin: 0%;
     padding: 0%;
 }
+button{
+    right: 10;
+    top: 10;
+    background-color: var(--fundo);
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    border: 1px solid var(--borda);
+    cursor: pointer ;
+    height: 50px;
+    width: 200px;
+}
 .text{
     font-family: "Noto Sans Cherokee", sans-serif;
     font-size: 100%;
@@ -45,24 +52,14 @@ body{
     padding-top: 70%;
     font-family: "Cormorant Garamond", serif;
     font-weight: 26%;
-font-size: 100%;
+font-size: 26px;
 color: var(--borda);
 }
 .lista{
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: var(--fundo);
-    padding: 10px;
-    margin: 0;
     list-style-type: none;
-    border: 1px solid var(--borda);
-    cursor: pointer ;
-    
-
 }
 .lista li {
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .logo{
     width: 50%;
@@ -78,4 +75,29 @@ color: var(--borda);
     .text{
         flex-direction: row;
     }
+}
+.facebook{
+    width: 34px;
+    margin: 0 10px;
+}
+.social{
+    display: flex;
+    padding-left: 70%;
+    padding-top: 5%;
+}
+.instagram{
+    width: 34px;
+    margin: 0 10px;
+}
+.twitter{
+    width: 34px;
+    margin: 0 10px;
+}
+.whatsapp{
+    width: 34px;
+    margin: 0 10px;
+}
+.youtube{
+    width: 34px;
+    margin: 0 10px;
 }
