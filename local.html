@@ -7,13 +7,13 @@
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root{
-    --fundo: #F1EBE5;
+    --fundo: #F1EBE5 ;
     --borda: #FFF8F1;
 }
 *{
 margin: 0;
 padding: 0;
-background-color: var(--fundo);
+background: var(--fundo);
 }
 .titulo{
     font-family: "Quicksand", sans-serif;
@@ -23,13 +23,32 @@ background-color: var(--fundo);
 }
 .menu{
     display: flex;
-    text-align: end;
-    background-color: var(--borda);
-    border:  1px solid var(--borda);
-    padding-left: 20%;
 }
-.menu-1,.menu-2,.menu-3,.menu-4,.menu-5,.menu-6{
- padding-left: 10%;
+menu{
+    right: 10;
+    top: 10;
+    background-color: var(--fundo);
+    padding: 0px;
+    margin: 0px;
+    border: 1px  none solid var(--borda);
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.menu{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.menu-1, .menu-2, .menu-3, .menu-4, .menu-5, .menu-6{
+    padding-left: 10%;
+}
+.texto{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: 26%;
+    font-size: 22px;
+    padding-left: 35%;
+    padding-top: 5%;
 }
     </style>
 </head>
@@ -37,14 +56,21 @@ background-color: var(--fundo);
 <h1 class="titulo">Sabor Local</h1>
 </header>
 <body>
-    <div class="menu">
-        <menu class="menu-1">Sobre</menu>
-        <menu class="menu-2">Comprar</menu>
-        <menu class="menu-3">Desconto</menu>
-        <menu class="menu-4">Alimentos</menu>
-        <menu class="menu-5">Cardapios</menu>
-        <menu class="menu-6">Preços</menu>
-    </div>
+    <section class="arruma">
+        <div class="menu">
+            <menu class="menu-1">Sobre</menu>
+            <menu class="menu-2">Comprar</menu>
+            <menu class="menu-3">Desconto</menu>
+            <menu class="menu-4">Alimentos</menu>
+            <menu class="menu-5">Cardapios</menu>
+            <menu class="menu-6">Preços</menu>
+        </div>
+    </section>
+    <section class="comi">
+        <h2 class="texto">Comidas & Qualidades</h2>
+    </section>
+    
+    
  
 </body>
 </html>
